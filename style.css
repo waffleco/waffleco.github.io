@@ -3,3 +3,12 @@
   border: none;
   background: none;
 }
+
+.waffle:hover {
+  filter: brightness(110%);
+}
+
+.waffle:active {
+  filter: brightness(80%);
+  transform: scale(0.9);
+}
