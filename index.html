@@ -11,6 +11,12 @@
     style="background-color: rgb(230, 149, 0)"
     style="font-family: comic sans ms"
   >
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <h1 style="font-family: comic sans ms">waffles: <a id="count">0</a></h1>
+    <label id="count"></label><br /><br />
+    <button class="waffle" onClick="counterFunc()">
+      <img src="waffle.png" />
+    </button>
     <script style="font-family: comic sans ms">
       count = 0;
       function counterFunc() {
@@ -18,12 +24,6 @@
         document.getElementById("count").innerHTML = count;
       }
     </script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <h1 style="font-family: comic sans ms">waffles: <a id="count">0</a></h1>
-    <label id="count"></label><br /><br />
-    <button class="waffle" onClick="counterFunc()">
-      <img src="waffle.png" />
-    </button>
     <a></a>
   </body>
 </html>
