@@ -1,7 +1,8 @@
 .waffle {
-  padding: 0;
+  padding: none;
   border: none;
   background: none;
+
 }
 
 .waffle:hover {
@@ -11,4 +12,18 @@
 .waffle:active {
   filter: brightness(80%);
   transform: scale(0.9);
+}
+.thealmightywaffle {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+.waffles {
+  position: absolute;
+  top: 2%;
+  left: 50.2%;
+  transform: translate(-50%, -50%);
+  
 }
