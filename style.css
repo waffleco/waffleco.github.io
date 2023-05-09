@@ -27,3 +27,18 @@
   transform: translate(-50%, -50%);
   
 }
+.sell {
+  padding: none;
+  border: none;
+  background: none;
+
+}
+
+.sell:hover {
+  filter: brightness(110%);
+}
+
+.sell:active {
+  filter: brightness(80%);
+  transform: scale(0.9);
+}
